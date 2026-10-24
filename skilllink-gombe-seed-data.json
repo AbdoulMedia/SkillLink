@@ -1,0 +1,836 @@
+{
+  "meta": {
+    "app": "SkillLink",
+    "version": "1.0.0",
+    "exportedAt": "2026-10-24T11:42:26.286Z",
+    "pilotState": "Gombe, Nigeria"
+  },
+  "locations": [
+    {
+      "id": "tumfure",
+      "name": "Tumfure",
+      "lga": "Akko",
+      "state": "Gombe",
+      "lat": 10.315,
+      "lng": 11.134,
+      "description": "Fast-growing residential layout, popular with new civil servants, visitors & tenants."
+    },
+    {
+      "id": "pantami",
+      "name": "Pantami",
+      "lga": "Gombe",
+      "state": "Gombe",
+      "lat": 10.278,
+      "lng": 11.171,
+      "description": "Hub for skilled electrical mechanics, solar engineers and automotive repairers."
+    },
+    {
+      "id": "bolari",
+      "name": "Bolari",
+      "lga": "Gombe",
+      "state": "Gombe",
+      "lat": 10.285,
+      "lng": 11.163,
+      "description": "Central commercial and residential neighborhood with painters and finishing artisans."
+    },
+    {
+      "id": "jekadafari",
+      "name": "Jeka Da Fari",
+      "lga": "Gombe",
+      "state": "Gombe",
+      "lat": 10.289,
+      "lng": 11.174,
+      "description": "Heart of Gombe town, near the main market with plumbers and hardware artisans."
+    },
+    {
+      "id": "federal_low_cost",
+      "name": "Federal Low Cost",
+      "lga": "Gombe",
+      "state": "Gombe",
+      "lat": 10.301,
+      "lng": 11.152,
+      "description": "Calm residential estate with generator specialists, AC technicians & tilers."
+    },
+    {
+      "id": "herwagana",
+      "name": "Herwagana",
+      "lga": "Gombe",
+      "state": "Gombe",
+      "lat": 10.281,
+      "lng": 11.182,
+      "description": "Welders, steel fabricators and aluminium roofing specialists."
+    },
+    {
+      "id": "kumbiya",
+      "name": "Kumbiya-Kumbiya",
+      "lga": "Gombe",
+      "state": "Gombe",
+      "lat": 10.293,
+      "lng": 11.166,
+      "description": "Bustling area known for master tailors, upholstery and generator mechanics."
+    },
+    {
+      "id": "bogo",
+      "name": "Bogo / Tashan Dukku",
+      "lga": "Gombe",
+      "state": "Gombe",
+      "lat": 10.32,
+      "lng": 11.18,
+      "description": "Transit and commercial zone with mechanical workshops and borehole drillers."
+    },
+    {
+      "id": "nasarawo",
+      "name": "Nasarawo",
+      "lga": "Gombe",
+      "state": "Gombe",
+      "lat": 10.273,
+      "lng": 11.16,
+      "description": "Established community with carpenters, bricklayers and plumbing experts."
+    }
+  ],
+  "tradeCategories": [
+    {
+      "id": "all",
+      "name": "All Trades",
+      "hausaName": "Dukkan Sana'o'i",
+      "iconName": "Wrench",
+      "description": "Browse all verified trade categories and artisans",
+      "popularTasks": [
+        "Emergency repairs",
+        "Routine home maintenance",
+        "New installations"
+      ]
+    },
+    {
+      "id": "electrical_solar",
+      "name": "Electrical & Solar",
+      "hausaName": "Hasken Wuta & Rana",
+      "iconName": "Zap",
+      "description": "Home wiring, solar inverter installation, prepaid meter repair, distribution panels",
+      "popularTasks": [
+        "Inverter & Battery Setup",
+        "Prepaid Meter Faults",
+        "House Conduit Wiring",
+        "Short Circuit Diagnosis"
+      ]
+    },
+    {
+      "id": "plumbing_water",
+      "name": "Plumbing & Water Systems",
+      "hausaName": "Kayan Pipa & Ruwa",
+      "iconName": "Droplet",
+      "description": "Pumping machines, overhead tank plumbing, bathroom fittings, pipe leak repairs",
+      "popularTasks": [
+        "Submersible Pump Repair",
+        "Overhead Tank Plumbing",
+        "Toilet & Sink Leaks",
+        "Underground Drainage"
+      ]
+    },
+    {
+      "id": "carpentry_roofing",
+      "name": "Carpentry & Woodwork",
+      "hausaName": "Sassaƙa & Kayan Daki",
+      "iconName": "Hammer",
+      "description": "Roofing trusses, door hanging, custom kitchen cabinets, bed frames & wardrobe repairs",
+      "popularTasks": [
+        "Security Door Fitting",
+        "Custom Wardrobes",
+        "Roof Leak Repairs",
+        "Office & Home Furniture"
+      ]
+    },
+    {
+      "id": "generator_mechanic",
+      "name": "Generator & Small Engines",
+      "hausaName": "Gyaran Injin Janareto",
+      "iconName": "Cpu",
+      "description": "Tiger, Lutian, Perkins & Mikano petrol/diesel generator maintenance and servicing",
+      "popularTasks": [
+        "Carburetor & Plug Cleaning",
+        "Diesel Engine Servicing",
+        "Alternator Coil Rewinding",
+        "Auto-changeover Switch"
+      ]
+    },
+    {
+      "id": "painting_pop",
+      "name": "Painting & POP Ceiling",
+      "hausaName": "Fenti & Ado Na POP",
+      "iconName": "Paintbrush",
+      "description": "Screeding, interior/exterior acrylic painting, artistic POP plaster and wall designs",
+      "popularTasks": [
+        "Modern Wall Screeding",
+        "POP Ceiling Design",
+        "Exterior Weatherproof Coat",
+        "Gloss & Satin Finish"
+      ]
+    },
+    {
+      "id": "ac_refrigeration",
+      "name": "AC & Refrigeration",
+      "hausaName": "Injin Sanyi & Firiji",
+      "iconName": "Wind",
+      "description": "Split unit AC installation, gas refilling, compressor replacement and deep freezer repair",
+      "popularTasks": [
+        "Split AC Installation",
+        "R22/R410 Gas Top-up",
+        "Compressor Replacement",
+        "Deep Freezer Leak Fix"
+      ]
+    },
+    {
+      "id": "masonry_tiling",
+      "name": "Masonry & Tiling",
+      "hausaName": "Gini & Dasa Tayis",
+      "iconName": "Grid",
+      "description": "Ceramic/porcelain tile laying, wall plastering, foundation work, interlocking paving",
+      "popularTasks": [
+        "Floor & Wall Tiling",
+        "Interlocking Paver Laying",
+        "House Foundation & Pillars",
+        "Screed Levelling"
+      ]
+    },
+    {
+      "id": "welding_fabrication",
+      "name": "Welding & Metalwork",
+      "hausaName": "Walda & Kayan Karfe",
+      "iconName": "Shield",
+      "description": "Burglary proofs, sliding metal gates, iron trusses, wrought iron railings and tank stands",
+      "popularTasks": [
+        "Security Burglary Proofs",
+        "Main Entrance Sliding Gate",
+        "Overhead Tank Metal Stand",
+        "Staircase Railings"
+      ]
+    },
+    {
+      "id": "tailoring_fashion",
+      "name": "Tailoring & Embroidery",
+      "hausaName": "Dinki & Ado Na Zamani",
+      "iconName": "Scissors",
+      "description": "Babban Riga, Kaftan, Senator suits, curtain sewing and precision machine embroidery",
+      "popularTasks": [
+        "Traditional Kaftan & Cap",
+        "Babban Riga Computerized Embroidery",
+        "Curtain Fitting & Drapes",
+        "Express Alterations"
+      ]
+    }
+  ],
+  "artisans": [
+    {
+      "id": "artisan_1",
+      "name": "Engr. Ibrahim Danladi",
+      "businessName": "Danladi Solar & Electricals Gombe",
+      "avatarUrl": "/src/assets/images/artisan_electrician_solar_1792838139530.jpg",
+      "role": "artisan",
+      "tradeCategoryId": "electrical_solar",
+      "tradeCategoryName": "Electrical & Solar",
+      "skills": [
+        "Solar Inverter Systems",
+        "House Wiring",
+        "Distribution Boards",
+        "Prepaid Meters",
+        "Fault Diagnosis"
+      ],
+      "bio": "Certified master electrician with 9 years field experience in Gombe. Specializing in solar inverter installations, resolving tricky earthing problems, and safe residential conduit wiring.",
+      "experienceYears": 9,
+      "state": "Gombe",
+      "lga": "Gombe",
+      "neighborhood": "Pantami",
+      "workshopAddress": "Shop 14, Near Pantami Stadium Main Gate, Pantami, Gombe",
+      "lat": 10.278,
+      "lng": 11.171,
+      "phone": "+2348031234567",
+      "whatsappNumber": "+2348031234567",
+      "hourlyRate": 3500,
+      "dailyRate": 18000,
+      "inspectionFee": 3000,
+      "pricingNote": "Inspection fee is deductible from total project cost upon hiring.",
+      "isAvailable": true,
+      "emergencyReady": true,
+      "languages": [
+        "Hausa",
+        "English",
+        "Fulfulde"
+      ],
+      "rating": 4.9,
+      "reviewCount": 38,
+      "completedJobsCount": 142,
+      "verification": {
+        "idVerified": true,
+        "apprenticeshipCertified": true,
+        "policeClearance": true,
+        "tradeAssociationMember": true,
+        "associationName": "Licensed Electrical Contractors Association of Nigeria (LECAN), Gombe Branch"
+      },
+      "portfolio": [
+        {
+          "id": "port_1_1",
+          "title": "5kVA Pure Sine Wave Solar System in Tumfure",
+          "category": "Solar Installation",
+          "description": "Complete hybrid solar installation featuring 8 monoline solar panels, 48V Lithium battery bank, and automated changeover for a new 4-bedroom bungalow.",
+          "imageUrl": "/src/assets/images/skilllink_hero_artisan_1792838139667.jpg",
+          "completedDate": "2 weeks ago",
+          "tags": [
+            "Lithium Inverter",
+            "Solar PV",
+            "Tumfure Resident"
+          ]
+        },
+        {
+          "id": "port_1_2",
+          "title": "Industrial DB Panel Rewiring",
+          "category": "Conduit Wiring",
+          "description": "Overhauled an overloaded distribution panel for a commercial clinic in Bolari, separating heavy medical loads with individual RCBO breakers.",
+          "imageUrl": "/src/assets/images/artisan_electrician_solar_1792838139530.jpg",
+          "completedDate": "1 month ago",
+          "tags": [
+            "Safety Breakers",
+            "Commercial DB"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_1_1",
+          "seekerId": "seeker_1",
+          "seekerName": "Usman Bello",
+          "seekerNeighborhood": "Tumfure",
+          "artisanId": "artisan_1",
+          "rating": 5,
+          "comment": "I just rented a house in Tumfure coming from Abuja and had zero electricity contacts. Engr. Ibrahim arrived within 30 minutes, identified the dead neutral line, and fixed my inverter. Extremely polite and honest!",
+          "date": "3 days ago",
+          "serviceRendered": "Inverter Troubleshooting & Earthing Fix"
+        },
+        {
+          "id": "rev_1_2",
+          "seekerId": "seeker_2",
+          "seekerName": "Dr. Fatima Adamu",
+          "seekerNeighborhood": "Federal Low Cost",
+          "artisanId": "artisan_1",
+          "rating": 5,
+          "comment": "Very professional work. He cleanly labelled all circuit breakers in my home. He speaks fluent English and Hausa which made communication smooth.",
+          "date": "2 weeks ago",
+          "serviceRendered": "House Wiring Inspection"
+        }
+      ]
+    },
+    {
+      "id": "artisan_2",
+      "name": "Adebayo \"Baba\" Oladipo",
+      "businessName": "Ade-Flow Plumbing & Borehole Services",
+      "avatarUrl": "/src/assets/images/artisan_plumbing_work_1792838140427.jpg",
+      "role": "artisan",
+      "tradeCategoryId": "plumbing_water",
+      "tradeCategoryName": "Plumbing & Water Systems",
+      "skills": [
+        "Borehole Submersible Pumps",
+        "PPR Pipe Fusion",
+        "Overhead Tank Plumbing",
+        "Drain Unclogging",
+        "Water Heaters"
+      ],
+      "bio": "Seasoned plumber with over 12 years of hands-on experience in Gombe. Master of PPR heat-fusion piping, pressure pumps, and fixing stubborn underground pipeline leaks without unnecessary destruction.",
+      "experienceYears": 12,
+      "state": "Gombe",
+      "lga": "Gombe",
+      "neighborhood": "Jeka Da Fari",
+      "workshopAddress": "Opposite Central Mosque Line, Jeka Da Fari, Gombe",
+      "lat": 10.289,
+      "lng": 11.174,
+      "phone": "+2348029876543",
+      "whatsappNumber": "+2348029876543",
+      "hourlyRate": 3000,
+      "dailyRate": 15000,
+      "inspectionFee": 2500,
+      "pricingNote": "Transparent pricing. Client inspects plumbing materials before installation.",
+      "isAvailable": true,
+      "emergencyReady": true,
+      "languages": [
+        "Yoruba",
+        "Hausa",
+        "English"
+      ],
+      "rating": 4.8,
+      "reviewCount": 46,
+      "completedJobsCount": 215,
+      "verification": {
+        "idVerified": true,
+        "apprenticeshipCertified": true,
+        "policeClearance": true,
+        "tradeAssociationMember": true,
+        "associationName": "Gombe State Association of Professional Plumbers"
+      },
+      "portfolio": [
+        {
+          "id": "port_2_1",
+          "title": "Modern Under-Sink & Water Manifold Installation",
+          "category": "Kitchen Plumbing",
+          "description": "Installed brass shut-off valves, copper adapter lines and dual kitchen basin drains with zero leaks in Federal Low Cost estate.",
+          "imageUrl": "/src/assets/images/artisan_plumbing_work_1792838140427.jpg",
+          "completedDate": "Last week",
+          "tags": [
+            "PPR Fitting",
+            "Zero Leaks"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_2_1",
+          "seekerId": "seeker_3",
+          "seekerName": "Kabir Garba",
+          "seekerNeighborhood": "Bolari",
+          "artisanId": "artisan_2",
+          "rating": 5,
+          "comment": "Our water tank was overflowing and burning the pumping machine sensor. Adebayo fixed the float switch and redid the overflow line within 2 hours.",
+          "date": "1 week ago",
+          "serviceRendered": "Automatic Water Float Switch Fix"
+        }
+      ]
+    },
+    {
+      "id": "artisan_3",
+      "name": "Mallam Musa Haruna",
+      "businessName": "Gombe Heritage Woodcraft & Roofing",
+      "avatarUrl": "/src/assets/images/artisan_carpentry_woodwork_1792838141035.jpg",
+      "role": "artisan",
+      "tradeCategoryId": "carpentry_roofing",
+      "tradeCategoryName": "Carpentry & Woodwork",
+      "skills": [
+        "Handcrafted Furniture",
+        "Roofing Trusses",
+        "Flush & Panel Doors",
+        "Custom Kitchen Cabinets",
+        "Ceiling Battens"
+      ],
+      "bio": "Dedicated wood craftsman building durable, termite-treated furniture, security doors, and bespoke wardrobes. Combines traditional northern joinery with modern finishes.",
+      "experienceYears": 15,
+      "state": "Gombe",
+      "lga": "Gombe",
+      "neighborhood": "Tumfure",
+      "workshopAddress": "Behind College of Nursing Junction, Tumfure Layout, Gombe",
+      "lat": 10.317,
+      "lng": 11.132,
+      "phone": "+2348061122334",
+      "whatsappNumber": "+2348061122334",
+      "hourlyRate": 3500,
+      "dailyRate": 16000,
+      "inspectionFee": 2000,
+      "pricingNote": "Free material estimate consultation provided for full home furniture orders.",
+      "isAvailable": true,
+      "emergencyReady": false,
+      "languages": [
+        "Hausa",
+        "English"
+      ],
+      "rating": 4.9,
+      "reviewCount": 29,
+      "completedJobsCount": 160,
+      "verification": {
+        "idVerified": true,
+        "apprenticeshipCertified": true,
+        "policeClearance": true,
+        "tradeAssociationMember": true,
+        "associationName": "National Union of Furniture & Woodworkers, Gombe"
+      },
+      "portfolio": [
+        {
+          "id": "port_3_1",
+          "title": "Custom Hardwood Dining & Work Tables",
+          "category": "Custom Furniture",
+          "description": "Crafted 6-seater solid mahogany dining set with natural varnish for a visitor newly settled in Gombe.",
+          "imageUrl": "/src/assets/images/artisan_carpentry_woodwork_1792838141035.jpg",
+          "completedDate": "3 weeks ago",
+          "tags": [
+            "Mahogany",
+            "Hand Planed"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_3_1",
+          "seekerId": "seeker_1",
+          "seekerName": "Usman Bello",
+          "seekerNeighborhood": "Tumfure",
+          "artisanId": "artisan_3",
+          "rating": 5,
+          "comment": "Mallam Musa made sturdy solid wood doors for my rented house and re-hinged all broken kitchen drawers. Honest craftsman right here in Tumfure.",
+          "date": "5 days ago",
+          "serviceRendered": "Door Realignment & Wardrobe Lock Fixing"
+        }
+      ]
+    },
+    {
+      "id": "artisan_4",
+      "name": "Fatima Aliyu",
+      "businessName": "Royal Hue POP & Wall Finishes",
+      "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+      "role": "artisan",
+      "tradeCategoryId": "painting_pop",
+      "tradeCategoryName": "Painting & POP Ceiling",
+      "skills": [
+        "Wall Screeding",
+        "POP Moulding",
+        "Satin & Matt Paints",
+        "3D Wall Panels",
+        "Damp Proofing Treatment"
+      ],
+      "bio": "Young dynamic female artisan breaking boundaries in interior decoration and decorative painting. Passionate about transforming drab rental apartments into warm, modern spaces.",
+      "experienceYears": 6,
+      "state": "Gombe",
+      "lga": "Gombe",
+      "neighborhood": "Bolari",
+      "workshopAddress": "Behind Gombe State Library, Bolari, Gombe",
+      "lat": 10.285,
+      "lng": 11.163,
+      "phone": "+2348074455667",
+      "whatsappNumber": "+2348074455667",
+      "hourlyRate": 2800,
+      "dailyRate": 14000,
+      "inspectionFee": 2000,
+      "pricingNote": "Free color combination advice included with every project.",
+      "isAvailable": true,
+      "emergencyReady": false,
+      "languages": [
+        "Hausa",
+        "English"
+      ],
+      "rating": 4.9,
+      "reviewCount": 31,
+      "completedJobsCount": 88,
+      "verification": {
+        "idVerified": true,
+        "apprenticeshipCertified": true,
+        "policeClearance": true,
+        "tradeAssociationMember": true,
+        "associationName": "Gombe Professional Decorators & Painters Guild"
+      },
+      "portfolio": [
+        {
+          "id": "port_4_1",
+          "title": "Modern Wall Screeding & Soft Beige Painting",
+          "category": "Interior Painting",
+          "description": "Complete 3-bedroom apartment screeding and premium matt paint job with moisture seal against harmattan dust in Federal Low Cost.",
+          "imageUrl": "/src/assets/images/skilllink_hero_artisan_1792838139667.jpg",
+          "completedDate": "2 weeks ago",
+          "tags": [
+            "Wall Screeding",
+            "Harmattan Proof"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_4_1",
+          "seekerId": "seeker_4",
+          "seekerName": "Hauwa Mohammed",
+          "seekerNeighborhood": "Federal Low Cost",
+          "artisanId": "artisan_4",
+          "rating": 5,
+          "comment": "Fatima is meticulous. No paint splatters on my tiles or switches, and she finished ahead of schedule. Highly recommended to anyone renting a new house.",
+          "date": "2 weeks ago",
+          "serviceRendered": "Living Room Screeding & Painting"
+        }
+      ]
+    },
+    {
+      "id": "artisan_5",
+      "name": "Salisu Tanko",
+      "businessName": "Salisu Precision Generators & Heavy Mechanics",
+      "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
+      "role": "artisan",
+      "tradeCategoryId": "generator_mechanic",
+      "tradeCategoryName": "Generator & Small Engines",
+      "skills": [
+        "Mikano & Perkins Diesel Sets",
+        "Lutian & Tiger Petrol Gens",
+        "Alternator Rewinding",
+        "ATS Auto Switches",
+        "Injector Nozzle Calibration"
+      ],
+      "bio": "Rapid-response generator specialist. Serving homes, clinics, and businesses across Gombe with 24/7 troubleshooting for all generator brands.",
+      "experienceYears": 11,
+      "state": "Gombe",
+      "lga": "Gombe",
+      "neighborhood": "Federal Low Cost",
+      "workshopAddress": "Opposite State Water Board Quarters, Federal Low Cost, Gombe",
+      "lat": 10.301,
+      "lng": 11.152,
+      "phone": "+2348083322110",
+      "whatsappNumber": "+2348083322110",
+      "hourlyRate": 3000,
+      "dailyRate": 15000,
+      "inspectionFee": 2500,
+      "pricingNote": "Immediate emergency visits available within 45 minutes.",
+      "isAvailable": true,
+      "emergencyReady": true,
+      "languages": [
+        "Hausa",
+        "English",
+        "Fulfulde"
+      ],
+      "rating": 4.7,
+      "reviewCount": 42,
+      "completedJobsCount": 310,
+      "verification": {
+        "idVerified": true,
+        "apprenticeshipCertified": true,
+        "policeClearance": true,
+        "tradeAssociationMember": true,
+        "associationName": "Nigerian Association of Mechanical Artisans"
+      },
+      "portfolio": [
+        {
+          "id": "port_5_1",
+          "title": "Complete Overhaul of 15kVA Diesel Generator",
+          "category": "Engine Overhaul",
+          "description": "Replaced piston rings, overhauled fuel injection pump, and balanced alternator voltage for uninterrupted power.",
+          "imageUrl": "/src/assets/images/artisan_electrician_solar_1792838139530.jpg",
+          "completedDate": "1 month ago",
+          "tags": [
+            "Perkins Diesel",
+            "Emergency Power"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_5_1",
+          "seekerId": "seeker_1",
+          "seekerName": "Usman Bello",
+          "seekerNeighborhood": "Tumfure",
+          "artisanId": "artisan_5",
+          "rating": 5,
+          "comment": "My small generator refused to start late at night. Called Salisu through SkillLink, he guided me on phone first, then came early morning and fixed the blocked carburetor. Fair pricing!",
+          "date": "1 week ago",
+          "serviceRendered": "Carburetor Replacement & Servicing"
+        }
+      ]
+    },
+    {
+      "id": "artisan_6",
+      "name": "Bello Garba (Welder)",
+      "businessName": "IronGuard Metal Fabrication & Roof Works",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+      "role": "artisan",
+      "tradeCategoryId": "welding_fabrication",
+      "tradeCategoryName": "Welding & Metalwork",
+      "skills": [
+        "Burglary Proofs",
+        "Water Tank Overhead Stands",
+        "Sliding Gates",
+        "Galvanized Handrails",
+        "Compound Iron Fencing"
+      ],
+      "bio": "Heavy-duty steel fabricator in Herwagana. Constructing secure burglary proofing, reinforced water tank stands, and decorative estate gates.",
+      "experienceYears": 8,
+      "state": "Gombe",
+      "lga": "Gombe",
+      "neighborhood": "Herwagana",
+      "workshopAddress": "Plot 7, Metal Works Village, Herwagana, Gombe",
+      "lat": 10.281,
+      "lng": 11.182,
+      "phone": "+2348059988776",
+      "whatsappNumber": "+2348059988776",
+      "hourlyRate": 3200,
+      "dailyRate": 15000,
+      "inspectionFee": 2000,
+      "pricingNote": "Free on-site measurement for new window burglary grills.",
+      "isAvailable": true,
+      "emergencyReady": true,
+      "languages": [
+        "Hausa",
+        "English"
+      ],
+      "rating": 4.8,
+      "reviewCount": 22,
+      "completedJobsCount": 114,
+      "verification": {
+        "idVerified": true,
+        "apprenticeshipCertified": true,
+        "policeClearance": true,
+        "tradeAssociationMember": true,
+        "associationName": "Gombe State Welders & Fabricators Cooperative"
+      },
+      "portfolio": [
+        {
+          "id": "port_6_1",
+          "title": "Reinforced 3000L Overhead Water Tank Stand",
+          "category": "Structural Metalwork",
+          "description": "Engineered 18ft high 4-inch galvanized pipe water tank tower with anti-corrosion primer for a residential compound.",
+          "imageUrl": "/src/assets/images/artisan_plumbing_work_1792838140427.jpg",
+          "completedDate": "3 weeks ago",
+          "tags": [
+            "Tank Stand",
+            "Galvanized"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_6_1",
+          "seekerId": "seeker_2",
+          "seekerName": "Dr. Fatima Adamu",
+          "seekerNeighborhood": "Federal Low Cost",
+          "artisanId": "artisan_6",
+          "rating": 5,
+          "comment": "Bello built our compound back-gate and window burglary protectors. Very heavy gauge iron, neat joints, and clean primer coat.",
+          "date": "3 weeks ago",
+          "serviceRendered": "Window Burglary Proof Installation"
+        }
+      ]
+    },
+    {
+      "id": "artisan_7",
+      "name": "Yakubu Sani",
+      "businessName": "ArcticCool AC & Deep Freezer Tech",
+      "avatarUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80",
+      "role": "artisan",
+      "tradeCategoryId": "ac_refrigeration",
+      "tradeCategoryName": "AC & Refrigeration",
+      "skills": [
+        "Inverter Split ACs",
+        "Gas Leak Detection",
+        "Capillary Tube Unclogging",
+        "Chiller Repair",
+        "Compressor Rewiring"
+      ],
+      "bio": "Specialist in keeping northern homes cool. Expert diagnostics on inverter air conditioners, energy-saving cooling systems, and commercial cold rooms.",
+      "experienceYears": 7,
+      "state": "Gombe",
+      "lga": "Gombe",
+      "neighborhood": "Kumbiya-Kumbiya",
+      "workshopAddress": "Kumbiya Market Road, Kumbiya-Kumbiya, Gombe",
+      "lat": 10.293,
+      "lng": 11.166,
+      "phone": "+2348037788990",
+      "whatsappNumber": "+2348037788990",
+      "hourlyRate": 3500,
+      "dailyRate": 16000,
+      "inspectionFee": 3000,
+      "pricingNote": "Includes pressure manifold vacuum test before refrigerant refilling.",
+      "isAvailable": true,
+      "emergencyReady": true,
+      "languages": [
+        "Hausa",
+        "English"
+      ],
+      "rating": 4.9,
+      "reviewCount": 35,
+      "completedJobsCount": 175,
+      "verification": {
+        "idVerified": true,
+        "apprenticeshipCertified": true,
+        "policeClearance": true,
+        "tradeAssociationMember": true,
+        "associationName": "Refrigeration & Air Conditioning Practitioners of Nigeria"
+      },
+      "portfolio": [
+        {
+          "id": "port_7_1",
+          "title": "Dual 2HP Inverter AC Installation & Vacuuming",
+          "category": "Cooling Systems",
+          "description": "Installed 2 LG inverter split units with anti-dust pre-filters and outdoor bracket vibration isolators in Tumfure.",
+          "imageUrl": "/src/assets/images/artisan_electrician_solar_1792838139530.jpg",
+          "completedDate": "Last month",
+          "tags": [
+            "Inverter AC",
+            "Vacuum Tested"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_7_1",
+          "seekerId": "seeker_1",
+          "seekerName": "Usman Bello",
+          "seekerNeighborhood": "Tumfure",
+          "artisanId": "artisan_7",
+          "rating": 5,
+          "comment": "With the Gombe heat, moving into our house was tough until Yakubu installed our bedroom AC cleanly. No messy pipes on the wall!",
+          "date": "4 days ago",
+          "serviceRendered": "AC Installation & Pipe Insulation"
+        }
+      ]
+    },
+    {
+      "id": "artisan_8",
+      "name": "Halima Zubairu",
+      "businessName": "Zubairu Modern Tailoring & Embroidery",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+      "role": "artisan",
+      "tradeCategoryId": "tailoring_fashion",
+      "tradeCategoryName": "Tailoring & Embroidery",
+      "skills": [
+        "Babban Riga Embroidery",
+        "Kaftan Sewing",
+        "Senator Suits",
+        "Curtain Fitting & Interior Drapes",
+        "Express Alterations"
+      ],
+      "bio": "Master fashion designer and modern tailor. Specializing in crisp executive kaftans, northern embroidery traditions, and custom drapery for newly rented homes.",
+      "experienceYears": 10,
+      "state": "Gombe",
+      "lga": "Gombe",
+      "neighborhood": "Kumbiya-Kumbiya",
+      "workshopAddress": "Opposite Old Police Barracks, Kumbiya-Kumbiya, Gombe",
+      "lat": 10.294,
+      "lng": 11.168,
+      "phone": "+2348092233445",
+      "whatsappNumber": "+2348092233445",
+      "hourlyRate": 2500,
+      "dailyRate": 12000,
+      "inspectionFee": 1500,
+      "pricingNote": "Fabric measurement pickup and home delivery available within Gombe metropolis.",
+      "isAvailable": true,
+      "emergencyReady": false,
+      "languages": [
+        "Hausa",
+        "English",
+        "Fulfulde"
+      ],
+      "rating": 5,
+      "reviewCount": 52,
+      "completedJobsCount": 420,
+      "verification": {
+        "idVerified": true,
+        "apprenticeshipCertified": true,
+        "policeClearance": true,
+        "tradeAssociationMember": true,
+        "associationName": "Gombe State Tailors & Designers Association"
+      },
+      "portfolio": [
+        {
+          "id": "port_8_1",
+          "title": "Executive Royal Kaftan with Computerized Neck Embroidery",
+          "category": "Fashion & Embroidery",
+          "description": "Tailored 3 sets of pristine cotton kaftans with matching embroidery for an inauguration event in Gombe.",
+          "imageUrl": "/src/assets/images/artisan_carpentry_woodwork_1792838141035.jpg",
+          "completedDate": "2 weeks ago",
+          "tags": [
+            "Kaftan",
+            "Embroidery"
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_8_1",
+          "seekerId": "seeker_4",
+          "seekerName": "Hauwa Mohammed",
+          "seekerNeighborhood": "Federal Low Cost",
+          "artisanId": "artisan_8",
+          "rating": 5,
+          "comment": "Halima tailored all curtains for our new home in record time. Every stitch is aligned, and she brought fabric samples directly to our living room.",
+          "date": "3 weeks ago",
+          "serviceRendered": "Living Room Drapes & Curtains"
+        }
+      ]
+    }
+  ]
+}
